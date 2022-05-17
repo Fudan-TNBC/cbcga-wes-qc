@@ -1,0 +1,17 @@
+{
+  "fastqscreen_docker": "registry.cn-shanghai.aliyuncs.com/pgx-docker-registry/fastqscreen:0.12.0",
+  "fastqc_docker": "registry.cn-shanghai.aliyuncs.com/pgx-docker-registry/fastqc:0.11.8",
+  "qualimap_docker": "registry.cn-shanghai.aliyuncs.com/pgx-docker-registry/qualimap:2.0.0",
+  "sentieon_docker": "registry.cn-shanghai.aliyuncs.com/pgx-docker-registry/sentieon-genomics:v202010.02",
+  "CPU2_GB8_cluster": "OnDemand bcs.ps.g.large img-ubuntu-vpc",
+  "CPU4_GB16_cluster": "OnDemand bcs.ps.g.xlarge img-ubuntu-vpc",
+  "CPU8_GB32_cluster": "OnDemand bcs.ps.g.2xlarge img-ubuntu-vpc",
+  "disk_size": "300",
+  "SENTIEON_INSTALL_DIR": "/opt/sentieon-genomics",
+  "SENTIEON_LICENSE": "192.168.0.55:8990",
+  "covered_bed": "oss://pgx-reference-data/bed/cbcga/S07604514_Covered.bed",
+  "fastq_screen_conf": "oss://pgx-reference-data/fastq_screen_reference/fastq_screen.conf",
+  "screen_ref_dir": "oss://pgx-reference-data/fastq_screen_reference/",
+  "fasta": "GRCh38.d1.vd1.fa",
+  "ref_dir": "oss://pgx-reference-data/GRCh38.d1.vd1/"
+}

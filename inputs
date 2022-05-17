@@ -1,0 +1,20 @@
+{
+  "{{ project_name }}.sample_id": "{{ sample_id }}",
+  "{{ project_name }}.fastq_1": "{{ fastq_1 }}",
+  "{{ project_name }}.fastq_2": "{{ fastq_2 }}",
+  "{{ project_name }}.fastqscreen_docker": "{{ fastqscreen_docker }}",
+  "{{ project_name }}.fastqc_docker": "{{ fastqc_docker }}",
+  "{{ project_name }}.qualimap_docker": "{{ qualimap_docker }}",
+  "{{ project_name }}.sentieon_docker": "{{ sentieon_docker }}",
+  "{{ project_name }}.SENTIEON_INSTALL_DIR": "{{ SENTIEON_INSTALL_DIR }}",
+  "{{ project_name }}.SENTIEON_LICENSE": "{{ SENTIEON_LICENSE }}",
+  "{{ project_name }}.CPU2_GB8_cluster": "{{ CPU2_GB8_cluster }}",
+  "{{ project_name }}.CPU4_GB16_cluster": "{{ CPU4_GB16_cluster }}",
+  "{{ project_name }}.CPU8_GB32_cluster": "{{ CPU8_GB32_cluster }}",
+  "{{ project_name }}.disk_size": "{{ disk_size }}",
+  "{{ project_name }}.covered_bed": "{{ covered_bed }}",
+  "{{ project_name }}.fastq_screen_conf": "{{ fastq_screen_conf }}",
+  "{{ project_name }}.screen_ref_dir": "{{ screen_ref_dir }}",
+  "{{ project_name }}.fasta": "{{ fasta }}",
+  "{{ project_name }}.ref_dir": "{{ ref_dir }}"
+}
